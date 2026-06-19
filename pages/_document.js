@@ -23,7 +23,7 @@ export default function Document() {
               href="assets/css/blue-color.css" // Set the default stylesheet path
           />
         </Head>
-        <body>
+        <body className="light-theme">
             <Main />
             <NextScript />
         </body>

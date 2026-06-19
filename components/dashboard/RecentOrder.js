@@ -1,180 +1,82 @@
-import { OverlayScrollbarsComponent } from 'overlayscrollbars-react'
-import React from 'react'
-import Link from 'next/link'
+import { OverlayScrollbarsComponent } from "overlayscrollbars-react";
+import React from "react";
+import Link from "next/link";
+import {
+  formatDate,
+  formatMoney,
+  getOrderCustomerName,
+  getOrderStatusBadge,
+  getPaymentMethodLabel,
+  getPaymentStatusBadge,
+} from "@/lib/avenueClient";
 
-const RecentOrder = () => {
+const RecentOrder = ({ orders = [], loading }) => {
   return (
     <div className="col-xxl-8">
-        <div className="panel recent-order">
-            <div className="panel-header">
-                <h5>Recent Orders</h5>
-                <div id="tableSearch"></div>
-            </div>
-            <div className="panel-body">
-                <OverlayScrollbarsComponent>
-                    <table className="table table-dashed recent-order-table dataTable no-footer" id="myTable">
-                        <thead>
-                            <tr>
-                                <th>Order ID</th>
-                                <th>Customer</th>
-                                <th>Order Date</th>
-                                <th>Payment Method</th>
-                                <th>Delivery Date</th>
-                                <th>Total Amount</th>
-                                <th>Status</th>
-                                <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>855212</td>
-                                <td>Soward</td>
-                                <td>28/10/22</td>
-                                <td>Cash</td>
-                                <td>02/11/22</td>
-                                <td>$05.22</td>
-                                <td><span className="badge bg-success">Paid</span></td>
-                                <td>
-                                    <div className="btn-box">
-                                        <button><i className="fa-light fa-eye"></i></button>
-                                        <button><i className="fa-light fa-pen"></i></button>
-                                        <button><i className="fa-light fa-trash"></i></button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>855213</td>
-                                <td>Kian</td>
-                                <td>29/10/22</td>
-                                <td>Card</td>
-                                <td>03/11/22</td>
-                                <td>$17.00</td>
-                                <td><span className="badge bg-primary">Delivered</span></td>
-                                <td>
-                                    <div className="btn-box">
-                                        <button><i className="fa-light fa-eye"></i></button>
-                                        <button><i className="fa-light fa-pen"></i></button>
-                                        <button><i className="fa-light fa-trash"></i></button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>855214</td>
-                                <td>Jennifer</td>
-                                <td>29/10/22</td>
-                                <td>Card</td>
-                                <td>03/11/22</td>
-                                <td>$15.22</td>
-                                <td><span className="badge bg-info">Pending</span></td>
-                                <td>
-                                    <div className="btn-box">
-                                        <button><i className="fa-light fa-eye"></i></button>
-                                        <button><i className="fa-light fa-pen"></i></button>
-                                        <button><i className="fa-light fa-trash"></i></button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>855215</td>
-                                <td>Benjamin</td>
-                                <td>30/10/22</td>
-                                <td>Cash</td>
-                                <td>03/11/22</td>
-                                <td>$12.15</td>
-                                <td><span className="badge bg-secondary">Unpaid</span></td>
-                                <td>
-                                    <div className="btn-box">
-                                        <button><i className="fa-light fa-eye"></i></button>
-                                        <button><i className="fa-light fa-pen"></i></button>
-                                        <button><i className="fa-light fa-trash"></i></button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>855216</td>
-                                <td>Anna</td>
-                                <td>31/10/22</td>
-                                <td>Cheque</td>
-                                <td>04/11/22</td>
-                                <td>$05.35</td>
-                                <td><span className="badge bg-danger">Canceled</span></td>
-                                <td>
-                                    <div className="btn-box">
-                                        <button><i className="fa-light fa-eye"></i></button>
-                                        <button><i className="fa-light fa-pen"></i></button>
-                                        <button><i className="fa-light fa-trash"></i></button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>855217</td>
-                                <td>Bradley</td>
-                                <td>01/11/22</td>
-                                <td>Cash</td>
-                                <td>05/11/22</td>
-                                <td>$25.28</td>
-                                <td><span className="badge bg-info">Pending</span></td>
-                                <td>
-                                    <div className="btn-box">
-                                        <button><i className="fa-light fa-eye"></i></button>
-                                        <button><i className="fa-light fa-pen"></i></button>
-                                        <button><i className="fa-light fa-trash"></i></button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>855218</td>
-                                <td>Parkinson</td>
-                                <td>03/11/22</td>
-                                <td>Cheque</td>
-                                <td>06/11/22</td>
-                                <td>$32.32</td>
-                                <td><span className="badge bg-info">Pending</span></td>
-                                <td>
-                                    <div className="btn-box">
-                                        <button><i className="fa-light fa-eye"></i></button>
-                                        <button><i className="fa-light fa-pen"></i></button>
-                                        <button><i className="fa-light fa-trash"></i></button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>975492</td>
-                                <td>Gavin</td>
-                                <td>12/06/23</td>
-                                <td>Cash</td>
-                                <td>16/06/23</td>
-                                <td>$32.32</td>
-                                <td><span className="badge bg-success">Paid</span></td>
-                                <td>
-                                    <div className="btn-box">
-                                        <button><i className="fa-light fa-eye"></i></button>
-                                        <button><i className="fa-light fa-pen"></i></button>
-                                        <button><i className="fa-light fa-trash"></i></button>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </OverlayScrollbarsComponent>
-                <div className="table-bottom-control">
-                    <div className="dataTables_info">Showing 1 to 8 of 8</div>
-                    <div className="dataTables_paginate paging_simple_numbers">
-                        <button className="btn btn-primary previous disabled">
-                            <i className="fa-light fa-angle-left"></i>
-                        </button>
-                        <span>
-                            <button className="btn btn-primary current">1</button>
-                        </span>
-                        <button className="btn btn-primary next disabled">
-                            <i className="fa-light fa-angle-right"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
+      <div className="panel recent-order">
+        <div className="panel-header">
+          <h5>Recent Orders</h5>
+          <Link href="/order" className="btn btn-sm btn-outline-primary">
+            View all
+          </Link>
         </div>
-    </div>
-  )
-}
+        <div className="panel-body">
+          {loading && (
+            <div className="text-center py-4">
+              <div className="spinner-border text-primary" role="status">
+                <span className="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          )}
 
-export default RecentOrder
+          {!loading && orders.length === 0 && (
+            <div className="text-center py-4 text-muted">No orders yet.</div>
+          )}
+
+          {!loading && orders.length > 0 && (
+            <OverlayScrollbarsComponent>
+              <table className="table table-dashed recent-order-table dataTable no-footer">
+                <thead>
+                  <tr>
+                    <th>Order ID</th>
+                    <th>Customer</th>
+                    <th>Order Date</th>
+                    <th>Payment Method</th>
+                    <th>Total Amount</th>
+                    <th>Status</th>
+                    <th>Payment</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {orders.map((order) => (
+                    <tr key={order._id}>
+                      <td>{order.orderNumber || "—"}</td>
+                      <td>{getOrderCustomerName(order)}</td>
+                      <td>{formatDate(order.createdAt)}</td>
+                      <td>{getPaymentMethodLabel(order.payment?.method)}</td>
+                      <td>{formatMoney(order.total)}</td>
+                      <td>
+                        <span className={`badge ${getOrderStatusBadge(order.status)}`}>
+                          {order.status || "—"}
+                        </span>
+                      </td>
+                      <td>
+                        <span
+                          className={`badge ${getPaymentStatusBadge(order.payment?.status)}`}
+                        >
+                          {order.payment?.status || "—"}
+                        </span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </OverlayScrollbarsComponent>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default RecentOrder;

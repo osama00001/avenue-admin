@@ -59,8 +59,8 @@ const DigiContextProvider = ({ children }) => {
   //theme button
   // Theme Selection
   const [themeSelection, setThemeSelection] = useState({
-    default: true,
-    light: false,
+    default: false,
+    light: true,
     dark: false,
   });
 
@@ -207,7 +207,20 @@ const DigiContextProvider = ({ children }) => {
 
 
   // Light Theme
-  const [isLightTheme, setIsLightTheme] = useState(false);
+  const [isLightTheme, setIsLightTheme] = useState(true);
+
+  useEffect(() => {
+    const bodyElement = document.body;
+    const divElement = document.querySelector(".body-padding");
+
+    bodyElement.classList.add("light-theme");
+    bodyElement.classList.remove("dark-theme");
+
+    if (divElement) {
+      divElement.classList.add("light-theme");
+      divElement.classList.remove("dark-theme", "blue-theme");
+    }
+  }, []);
 
   const handleLightThemeToggle = () => {
     setThemeSelection({ default: false, dark: false, light: (prev) => !prev });
@@ -258,16 +271,18 @@ const DigiContextProvider = ({ children }) => {
     handleThemeSelection('dark');
   };
 
-  // Reset or Default Theme
+  // Reset or Default Theme (blue)
   const handleResetTheme = () => {
     setIsLightTheme(false);
     setIsDarkTheme(false);
     const bodyElement = document.body;
-    const divElement = document.querySelector('.body-padding.body-p-top');
+    const divElement = document.querySelector('.body-padding.body-p-top') || document.querySelector('.body-padding');
 
     bodyElement.classList.remove('light-theme', 'dark-theme');
-    divElement.classList.remove('light-theme', 'dark-theme');
-    divElement.classList.add('blue-theme');
+    if (divElement) {
+      divElement.classList.remove('light-theme', 'dark-theme');
+      divElement.classList.add('blue-theme');
+    }
 
     handleThemeSelection('default');
   };
