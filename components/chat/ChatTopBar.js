@@ -10,7 +10,7 @@ const ChatTopBar = () => {
             <div className="user">
                 <button className="back-to-all-chat btn-flush fs-14 d-md-none"><i className="fa-light fa-arrow-left"></i></button>
                 <div className="avatar">
-                    <img src="assets/images/avatar-2.png" alt="User"/>
+                    <img src="/assets/images/avatar-2.png" alt="User"/>
                 </div>
                 <div className="part-txt">
                     <span className="user-name">Amelie Harris</span>

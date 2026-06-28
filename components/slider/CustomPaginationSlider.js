@@ -23,13 +23,13 @@ const CustomPaginationSlider = () => {
             className="pagination-custom-swiper"
           >
             <SwiperSlide className="swiper-slide">
-              <img src="assets/images/slider-3.jpg" alt="image" />
+              <img src="/assets/images/slider-3.jpg" alt="image" />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="assets/images/slider-4.jpg" alt="image" />
+              <img src="/assets/images/slider-4.jpg" alt="image" />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="assets/images/slider-5.jpg" alt="image" />
+              <img src="/assets/images/slider-5.jpg" alt="image" />
             </SwiperSlide>
           </Swiper>
         </div>

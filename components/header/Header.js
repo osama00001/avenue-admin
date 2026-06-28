@@ -40,12 +40,12 @@ const Header = () => {
                 <div className="main-logo d-lg-block d-none">
                     <div className="logo-big">
                         <Link href  ="/">
-                            <img src={`${isLightTheme? "assets/images/logo-black.png":"assets/images/logo-big.png"}`} alt="Logo"/>
+                            <img src={`${isLightTheme? "/assets/images/logo-black.png":"/assets/images/logo-big.png"}`} alt="Logo"/>
                         </Link>
                     </div>
                     <div className="logo-small">
                         <Link href  ="/">
-                            <img src="assets/images/logo-small.png" alt="Logo"/>
+                            <img src="/assets/images/logo-small.png" alt="Logo"/>
                         </Link>
                     </div>
                 </div>
@@ -65,11 +65,11 @@ const Header = () => {
             <div className="col-4 d-lg-none">
                 {isLightTheme ? <div className="mobile-logo">
                     <Link href  ="/">
-                        <img src="assets/images/logo-black.png" alt="Logo"/>
+                        <img src="/assets/images/logo-black.png" alt="Logo"/>
                     </Link>
                 </div> : <div className="mobile-logo">
                     <Link href  ="/">
-                        <img src="assets/images/logo-big.png" alt="Logo"/>
+                        <img src="/assets/images/logo-big.png" alt="Logo"/>
                     </Link>
                 </div>}
             </div>

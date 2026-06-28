@@ -32,7 +32,7 @@ const ViewTaskModal = () => {
               <h6 className="dscr-title">Attachment</h6>
               <div className="task-attachment">
                 <div className="attched-box">
-                  <img src="assets/images/product-img-1.jpg" alt="Image"/>
+                  <img src="/assets/images/product-img-1.jpg" alt="Image"/>
                 </div>
                 <button className="btn btn-sm btn-primary w-100">Download All (1)</button>
               </div>
@@ -48,7 +48,7 @@ const ViewTaskModal = () => {
               <div className="single-comment">
                 <button className="btn-flush text-danger comment-delete"><i className="fa-light fa-trash-can"></i></button>
                 <div className="avatar">
-                  <img src="assets/images/admin.png" alt="Image"/>
+                  <img src="/assets/images/admin.png" alt="Image"/>
                 </div>
                 <div className="part-txt">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laborum, minus iste nam deleniti enim eveniet illum tempore hic non quam id voluptates veniam ullam inventore autem odit, recusandae earum.</p>

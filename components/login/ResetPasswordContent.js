@@ -8,7 +8,7 @@ const ResetPasswordContent = () => {
         <div className="login-body">
             <div className="top d-flex justify-content-between align-items-center">
                 <div className="logo">
-                    <img src="assets/images/logo-big.png" alt="Logo"/>
+                    <img src="/assets/images/logo-big.png" alt="Logo"/>
                 </div>
                 <Link href="/"><i className="fa-duotone fa-house-chimney"></i></Link>
             </div>

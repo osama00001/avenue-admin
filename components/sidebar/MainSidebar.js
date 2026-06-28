@@ -4,6 +4,7 @@ import { DigiContext } from '../../context/DigiContext';
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react'
 import DashboardPart from './DashboardPart';
 import AppsPart from './AppsPart';
+import SiteContentPart from './SiteContentPart';
 import PagesPart from './PagesPart';
 import ComponentsPart from './ComponentsPart';
 
@@ -52,6 +53,7 @@ const MainSidebar = () => {
           <OverlayScrollbarsComponent className="sidebar-menu">
             <DashboardPart />
             <AppsPart />
+            <SiteContentPart />
             <PagesPart />
             <ComponentsPart />
             <li className="help-center">
@@ -66,6 +68,7 @@ const MainSidebar = () => {
           <>
             <DashboardPart />
             <AppsPart />
+            <SiteContentPart />
             <PagesPart />
             <ComponentsPart />
             <li className="help-center">

@@ -101,7 +101,7 @@ const CustomizedDataTableSection = () => {
                                 <td>
                                     <div className="table-product-card">
                                         <div className="part-img">
-                                            <img src="assets/images/product-img-1.jpg" alt="Image"/>
+                                            <img src="/assets/images/product-img-1.jpg" alt="Image"/>
                                         </div>
                                         <div className="part-txt">
                                             <span className="product-name">A4TECH BH300 Bluetooth Wireless Headset</span>
@@ -143,7 +143,7 @@ const CustomizedDataTableSection = () => {
                                 <td>
                                     <div className="table-product-card">
                                         <div className="part-img">
-                                            <img src="assets/images/product-img-4.jpg" alt="Image"/>
+                                            <img src="/assets/images/product-img-4.jpg" alt="Image"/>
                                         </div>
                                         <div className="part-txt">
                                             <span className="product-name">Premium Blend Tea</span>
@@ -185,7 +185,7 @@ const CustomizedDataTableSection = () => {
                                 <td>
                                     <div className="table-product-card">
                                         <div className="part-img">
-                                            <img src="assets/images/product-img-3.jpg" alt="Image"/>
+                                            <img src="/assets/images/product-img-3.jpg" alt="Image"/>
                                         </div>
                                         <div className="part-txt">
                                             <span className="product-name">Chris Adams Body Spray classNameic Denim</span>

@@ -19,13 +19,13 @@ const DefaultSlider = () => {
                 className="default-swiper"
                 >
                         <SwiperSlide className="swiper-slide">
-                            <img src="assets/images/slider-1.jpg" alt="image"/>
+                            <img src="/assets/images/slider-1.jpg" alt="image"/>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
-                            <img src="assets/images/slider-2.jpg" alt="image"/>
+                            <img src="/assets/images/slider-2.jpg" alt="image"/>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
-                            <img src="assets/images/slider-3.jpg" alt="image"/>
+                            <img src="/assets/images/slider-3.jpg" alt="image"/>
                         </SwiperSlide>
                 </Swiper>
             </div>

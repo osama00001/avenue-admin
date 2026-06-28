@@ -13,7 +13,7 @@ const FileDetailsModal = () => {
         <div className="row g-4 align-items-center">
           <div className="col-sm-6">
             <div className="part-img">
-              <img src="assets/images/product-img-2.png" alt="Image" />
+              <img src="/assets/images/product-img-2.png" alt="Image" />
             </div>
           </div>
           <div className="col-sm-6">

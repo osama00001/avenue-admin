@@ -1203,7 +1203,7 @@ const DigiContextProvider = ({ children }) => {
     const selectedColor = Object.keys(primaryColor).find((color) => primaryColor[color]);
 
     if (primaryColorStylesheet) {
-      primaryColorStylesheet.setAttribute('href', `assets/css/${selectedColor}-color.css`);
+      primaryColorStylesheet.setAttribute('href', `/assets/css/${selectedColor}-color.css`);
     }
   }, [primaryColor]);
 
@@ -1600,7 +1600,7 @@ const DigiContextProvider = ({ children }) => {
       // Add the RTL CSS file
       const cssLink = document.createElement('link');
       cssLink.rel = 'stylesheet';
-      cssLink.href = 'assets/css/rtl-style.css'; // Adjust the path to the CSS file as needed
+      cssLink.href = '/assets/css/rtl-style.css';
       cssLink.setAttribute('data-rtl', 'true');
       head.appendChild(cssLink);
     } else {

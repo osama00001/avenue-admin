@@ -31,13 +31,13 @@ const UpcomingProjects = () => {
                                 <td>
                                     <div className="avatar-box justify-content-end">
                                         <div className="avatar">
-                                            <img src="assets/images/avatar-2.png" alt="image"/>
+                                            <img src="/assets/images/avatar-2.png" alt="image"/>
                                         </div>
                                         <div className="avatar">
-                                            <img src="assets/images/avatar-3.png" alt="image"/>
+                                            <img src="/assets/images/avatar-3.png" alt="image"/>
                                         </div>
                                         <div className="avatar">
-                                            <img src="assets/images/avatar-4.png" alt="image"/>
+                                            <img src="/assets/images/avatar-4.png" alt="image"/>
                                         </div>
                                         <div className="avatar bg-primary rounded-circle d-flex justify-content-center align-items-center text-white">6</div>
                                     </div>
@@ -59,13 +59,13 @@ const UpcomingProjects = () => {
                                 <td>
                                     <div className="avatar-box justify-content-end">
                                         <div className="avatar">
-                                            <img src="assets/images/avatar-2.png" alt="image"/>
+                                            <img src="/assets/images/avatar-2.png" alt="image"/>
                                         </div>
                                         <div className="avatar">
-                                            <img src="assets/images/avatar-3.png" alt="image"/>
+                                            <img src="/assets/images/avatar-3.png" alt="image"/>
                                         </div>
                                         <div className="avatar">
-                                            <img src="assets/images/avatar-4.png" alt="image"/>
+                                            <img src="/assets/images/avatar-4.png" alt="image"/>
                                         </div>
                                         <div className="avatar bg-primary rounded-circle d-flex justify-content-center align-items-center text-white">6</div>
                                     </div>
@@ -87,13 +87,13 @@ const UpcomingProjects = () => {
                                 <td>
                                     <div className="avatar-box justify-content-end">
                                         <div className="avatar">
-                                            <img src="assets/images/avatar-2.png" alt="image"/>
+                                            <img src="/assets/images/avatar-2.png" alt="image"/>
                                         </div>
                                         <div className="avatar">
-                                            <img src="assets/images/avatar-3.png" alt="image"/>
+                                            <img src="/assets/images/avatar-3.png" alt="image"/>
                                         </div>
                                         <div className="avatar">
-                                            <img src="assets/images/avatar-4.png" alt="image"/>
+                                            <img src="/assets/images/avatar-4.png" alt="image"/>
                                         </div>
                                         <div className="avatar bg-primary rounded-circle d-flex justify-content-center align-items-center text-white">6</div>
                                     </div>
@@ -115,13 +115,13 @@ const UpcomingProjects = () => {
                                 <td>
                                     <div className="avatar-box justify-content-end">
                                         <div className="avatar">
-                                            <img src="assets/images/avatar-2.png" alt="image"/>
+                                            <img src="/assets/images/avatar-2.png" alt="image"/>
                                         </div>
                                         <div className="avatar">
-                                            <img src="assets/images/avatar-3.png" alt="image"/>
+                                            <img src="/assets/images/avatar-3.png" alt="image"/>
                                         </div>
                                         <div className="avatar">
-                                            <img src="assets/images/avatar-4.png" alt="image"/>
+                                            <img src="/assets/images/avatar-4.png" alt="image"/>
                                         </div>
                                         <div className="avatar bg-primary rounded-circle d-flex justify-content-center align-items-center text-white">6</div>
                                     </div>

@@ -31,7 +31,7 @@ const FlipAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>flip-left<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="flip-left">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ const FlipAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>flip-right<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="flip-right">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ const FlipAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>flip-up<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="flip-up">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ const FlipAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>flip-down<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="flip-down">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>

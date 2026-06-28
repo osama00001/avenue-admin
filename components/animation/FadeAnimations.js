@@ -27,7 +27,7 @@ const FadeAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>fade-up<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="fade-up">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ const FadeAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>fade-down<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="fade-down">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ const FadeAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>fade-right<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="fade-right">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ const FadeAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>fade-left<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="fade-left">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@ const FadeAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>fade-up-right<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="fade-up-right">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ const FadeAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>fade-up-left<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="fade-up-left">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +117,7 @@ const FadeAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>fade-down-right<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="fade-down-right">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +132,7 @@ const FadeAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>fade-down-left<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="fade-down-left">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>

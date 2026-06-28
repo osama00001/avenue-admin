@@ -21,7 +21,7 @@ const ChatSidebar = () => {
             <div className="user-short">
                 <button className="back-to-chat-btn btn-flush fs-14 d-xxl-none"><i className="fa-light fa-arrow-left"></i></button>
                 <div className="avatar avatar-lg">
-                    <img src="assets/images/avatar-2.png" alt="Image"/>
+                    <img src="/assets/images/avatar-2.png" alt="Image"/>
                 </div>
                 <div className="part-txt">
                     <span className="user-name">Amelie Harris</span>

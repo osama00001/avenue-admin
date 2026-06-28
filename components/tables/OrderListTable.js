@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from "react";
-import { Table } from "react-bootstrap";
+import { Table, Form } from "react-bootstrap";
 import Link from "next/link";
+import { toast } from "react-toastify";
 import { OverlayScrollbarsComponent } from "overlayscrollbars-react";
 import PaginationSection from "./PaginationSection";
 import {
@@ -10,6 +11,9 @@ import {
   getOrderCustomerName,
   getOrderProductsSummary,
   getOrderStatusBadge,
+  getPaymentStatusBadge,
+  ORDER_STATUS_OPTIONS,
+  updateAdminOrderStatus,
 } from "../../lib/avenueClient";
 
 const PAGE_SIZE = 10;
@@ -23,6 +27,7 @@ const OrderListTable = () => {
   const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [updatingId, setUpdatingId] = useState(null);
 
   const loadOrders = useCallback(async () => {
     setLoading(true);
@@ -47,6 +52,22 @@ const OrderListTable = () => {
   useEffect(() => {
     loadOrders();
   }, [loadOrders]);
+
+  const handleStatusChange = async (orderId, newStatus) => {
+    setUpdatingId(orderId);
+    try {
+      const updated = await updateAdminOrderStatus({ id: orderId, status: newStatus });
+      setOrders((prev) =>
+        prev.map((o) => (o._id === orderId ? { ...o, ...updated } : o))
+      );
+      toast.success("Order status updated — customer will see this in Track My Order");
+    } catch (err) {
+      toast.error(err.message || "Failed to update status");
+      loadOrders();
+    } finally {
+      setUpdatingId(null);
+    }
+  };
 
   const paginate = (pageNumber) => {
     if (pageNumber < 1 || pageNumber > totalPages) return;
@@ -111,50 +132,57 @@ const OrderListTable = () => {
             >
               <thead>
                 <tr>
-                  <th className="no-sort">
-                    <div className="form-check">
-                      <input
-                        className="form-check-input"
-                        type="checkbox"
-                        id="markAllOrders"
-                        readOnly
-                      />
-                    </div>
-                  </th>
                   <th>Order ID</th>
                   <th>Customer</th>
-                  <th>Status</th>
+                  <th style={{ minWidth: 180 }}>Order Status</th>
                   <th>Product</th>
                   <th>Price</th>
-                  <th>Payment Method</th>
-                  <th>Delivery Status</th>
-                  <th>Order Date</th>
+                  <th>Payment</th>
+                  <th>Date</th>
+                  <th>Action</th>
                 </tr>
               </thead>
               <tbody>
                 {orders.map((order) => (
                   <tr key={order._id}>
                     <td>
-                      <div className="form-check">
-                        <input className="form-check-input" type="checkbox" readOnly />
-                      </div>
-                    </td>
-                    <td>
-                      <Link href="#">{order.orderNumber || order._id}</Link>
+                      <Link href={`/order/${order._id}`} className="fw-semibold">
+                        {order.orderNumber || order._id}
+                      </Link>
                     </td>
                     <td>{getOrderCustomerName(order)}</td>
                     <td>
-                      <span className="text-capitalize">{order.status}</span>
+                      <Form.Select
+                        size="sm"
+                        value={order.status || "placed"}
+                        disabled={updatingId === order._id}
+                        onChange={(e) => handleStatusChange(order._id, e.target.value)}
+                        className="form-control form-control-sm"
+                        style={{ minWidth: 160 }}
+                      >
+                        {ORDER_STATUS_OPTIONS.map((opt) => (
+                          <option key={opt.value} value={opt.value}>
+                            {opt.label}
+                          </option>
+                        ))}
+                      </Form.Select>
                     </td>
                     <td>{getOrderProductsSummary(order)}</td>
                     <td>{formatMoney(order.total, "GBP")}</td>
-                    <td>{order.payment?.method || "—"}</td>
                     <td>
-                      <span className={`badge ${getOrderStatusBadge(order.status)}`}>
-                        {order.status}
-                      </span>
+                      <span className="text-capitalize">{order.payment?.method || "—"}</span>
+                      {order.payment?.status && (
+                        <span className={`badge ms-1 ${getPaymentStatusBadge(order.payment.status)}`}>
+                          {order.payment.status}
+                        </span>
+                      )}
                     </td>
                     <td>{formatDate(order.createdAt)}</td>
+                    <td>
+                      <Link href={`/order/${order._id}`} className="btn btn-sm btn-outline-primary">
+                        View
+                      </Link>
+                    </td>
                   </tr>
                 ))}
               </tbody>

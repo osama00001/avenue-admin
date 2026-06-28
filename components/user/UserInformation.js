@@ -43,7 +43,7 @@ const UserInformation = () => {
                 <div className="top">
                     <div className="image-wrap">
                         <div className="part-img rounded-circle overflow-hidden">
-                            <img src="assets/images/admin.png" alt="admin"/>
+                            <img src="/assets/images/admin.png" alt="admin"/>
                         </div>
                         <button className="image-change"><i className="fa-light fa-camera"></i></button>
                     </div>

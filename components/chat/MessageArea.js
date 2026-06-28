@@ -38,12 +38,12 @@ const MessageArea = () => {
                             </div>
                         </div>
                         <div className="avatar">
-                            <img src="assets/images/admin.png" alt="Image"/>
+                            <img src="/assets/images/admin.png" alt="Image"/>
                         </div>
                     </div>
                     <div className="single-message">
                         <div className="avatar">
-                            <img src="assets/images/avatar-2.png" alt="Image"/>
+                            <img src="/assets/images/avatar-2.png" alt="Image"/>
                         </div>
                         <div className="msg-box">
                             <div className="msg-box-inner">
@@ -86,13 +86,13 @@ const MessageArea = () => {
                             </div>
                         </div>
                         <div className="avatar">
-                            <img src="assets/images/admin.png" alt="Image"/>
+                            <img src="/assets/images/admin.png" alt="Image"/>
                         </div>
                     </div>
                     <div className="day-divider"><span>Today</span></div>
                     <div className="single-message">
                         <div className="avatar">
-                            <img src="assets/images/avatar-2.png" alt="Image"/>
+                            <img src="/assets/images/avatar-2.png" alt="Image"/>
                         </div>
                         <div className="msg-box">
                             <div className="msg-box-inner">
@@ -135,7 +135,7 @@ const MessageArea = () => {
                             </div>
                         </div>
                         <div className="avatar">
-                            <img src="assets/images/admin.png" alt="Image"/>
+                            <img src="/assets/images/admin.png" alt="Image"/>
                         </div>
                     </div>
                 </div>

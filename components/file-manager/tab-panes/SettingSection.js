@@ -60,7 +60,7 @@ const SettingSection = () => {
                 <Tab.Pane eventKey="general" className={`tab-pane ${activeTab === 'general' ? 'show active' : ''}`}>
                     <div className="file-manager-user">
                         <div className="avatar">
-                            <img src="assets/images/admin.png" className="border border-2 border-primary" alt="Image"/>
+                            <img src="/assets/images/admin.png" className="border border-2 border-primary" alt="Image"/>
                         </div>
                         <div className="part-txt">
                             <div className="name"><span>Shaikh Abu Dardah</span> <button className="btn-flush"><i className="fa-light fa-pen"></i></button></div>
@@ -142,7 +142,7 @@ const SettingSection = () => {
                     <div className='panel mt-3'>
                         <div className="panel-body notification-body">
                             <div className="avatar">
-                            <img src="assets/images/avatar.png" alt="image" />
+                            <img src="/assets/images/avatar.png" alt="image" />
                             </div>
                             <div className="notification-txt">
                             <span className="notification-icon text-primary">
@@ -153,7 +153,7 @@ const SettingSection = () => {
                         </div>
                         <div className="panel-body notification-body">
                             <div className="avatar">
-                            <img src="assets/images/avatar-2.png" alt="image" />
+                            <img src="/assets/images/avatar-2.png" alt="image" />
                             </div>
                             <div className="notification-txt">
                             <span className="notification-icon text-success">
@@ -164,7 +164,7 @@ const SettingSection = () => {
                         </div>
                         <div className="panel-body notification-body">
                             <div className="avatar">
-                            <img src="assets/images/avatar-3.png" alt="image" />
+                            <img src="/assets/images/avatar-3.png" alt="image" />
                             </div>
                             <div className="notification-txt">
                             <span className="notification-icon">
@@ -175,7 +175,7 @@ const SettingSection = () => {
                         </div>
                         <div className="panel-body notification-body">
                             <div className="avatar">
-                            <img src="assets/images/avatar-4.png" alt="image" />
+                            <img src="/assets/images/avatar-4.png" alt="image" />
                             </div>
                             <div className="notification-txt">
                             <span className="notification-icon text-primary">
@@ -186,7 +186,7 @@ const SettingSection = () => {
                         </div>
                         <div className="panel-body notification-body">
                             <div className="avatar">
-                            <img src="assets/images/avatar-5.png" alt="image" />
+                            <img src="/assets/images/avatar-5.png" alt="image" />
                             </div>
                             <div className="notification-txt">
                             <span className="notification-icon text-success">
@@ -197,7 +197,7 @@ const SettingSection = () => {
                         </div>
                         <div className="panel-body notification-body">
                             <div className="avatar">
-                            <img src="assets/images/avatar-6.png" alt="image" />
+                            <img src="/assets/images/avatar-6.png" alt="image" />
                             </div>
                             <div className="notification-txt">
                             <span className="notification-icon">

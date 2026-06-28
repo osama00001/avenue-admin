@@ -22,13 +22,13 @@ const MouseControlSlider = () => {
               className="swiper-wrapper"
             >
               <SwiperSlide className="swiper-slide">
-                <img src="assets/images/slider-5.jpg" alt="image" />
+                <img src="/assets/images/slider-5.jpg" alt="image" />
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                <img src="assets/images/slider-6.jpg" alt="image" />
+                <img src="/assets/images/slider-6.jpg" alt="image" />
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                <img src="assets/images/slider-7.jpg" alt="image" />
+                <img src="/assets/images/slider-7.jpg" alt="image" />
               </SwiperSlide>
             </Swiper>
           </div>

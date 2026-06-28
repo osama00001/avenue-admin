@@ -46,7 +46,7 @@ const HeaderProfile = () => {
               : handleProfileDropdownCheckboxChange
           }
         >
-          <img src="assets/images/admin.png" alt="image" />
+          <img src="/assets/images/admin.png" alt="image" />
         </button>
         {isProfileSidebarOpen.dropdown && (
           <ul className={`dropdown-menu ${isProfileSidebarOpen.dropdown? 'show':''}`} aria-labelledby="profileDropdown">

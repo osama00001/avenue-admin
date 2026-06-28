@@ -17,13 +17,13 @@ const ScrollbarSlider = () => {
             className="pagination-scrollbar-swiper"
           >
             <SwiperSlide className="swiper-slide">
-              <img src="assets/images/slider-9.jpg" alt="image" />
+              <img src="/assets/images/slider-9.jpg" alt="image" />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="assets/images/slider-10.jpg" alt="image" />
+              <img src="/assets/images/slider-10.jpg" alt="image" />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="assets/images/slider-1.jpg" alt="image" />
+              <img src="/assets/images/slider-1.jpg" alt="image" />
             </SwiperSlide>
           </Swiper>
         </div>

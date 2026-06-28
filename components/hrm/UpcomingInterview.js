@@ -15,7 +15,7 @@ const UpcomingInterview = () => {
                 <ul className="upcoming-interview">
                     <li>
                         <div className="avatar avatar-lg">
-                            <img src="assets/images/avatar-2.png" className="rounded" alt="user"/>
+                            <img src="/assets/images/avatar-2.png" className="rounded" alt="user"/>
                         </div>
                         <div className="part-txt">
                             <span className="applicant-name">Natalie Gibson</span>
@@ -26,7 +26,7 @@ const UpcomingInterview = () => {
                     </li>
                     <li>
                         <div className="avatar avatar-lg">
-                            <img src="assets/images/avatar-3.png" className="rounded" alt="user"/>
+                            <img src="/assets/images/avatar-3.png" className="rounded" alt="user"/>
                         </div>
                         <div className="part-txt">
                             <span className="applicant-name">Natalie Gibson</span>
@@ -37,7 +37,7 @@ const UpcomingInterview = () => {
                     </li>
                     <li>
                         <div className="avatar avatar-lg">
-                            <img src="assets/images/avatar-4.png" className="rounded" alt="user"/>
+                            <img src="/assets/images/avatar-4.png" className="rounded" alt="user"/>
                         </div>
                         <div className="part-txt">
                             <span className="applicant-name">Natalie Gibson</span>
@@ -48,7 +48,7 @@ const UpcomingInterview = () => {
                     </li>
                     <li>
                         <div className="avatar avatar-lg">
-                            <img src="assets/images/avatar-5.png" className="rounded" alt="user"/>
+                            <img src="/assets/images/avatar-5.png" className="rounded" alt="user"/>
                         </div>
                         <div className="part-txt">
                             <span className="applicant-name">Natalie Gibson</span>
@@ -59,7 +59,7 @@ const UpcomingInterview = () => {
                     </li>
                     <li>
                         <div className="avatar avatar-lg">
-                            <img src="assets/images/avatar-6.png" className="rounded" alt="user"/>
+                            <img src="/assets/images/avatar-6.png" className="rounded" alt="user"/>
                         </div>
                         <div className="part-txt">
                             <span className="applicant-name">Natalie Gibson</span>

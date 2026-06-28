@@ -16,7 +16,7 @@ const MessageList = () => {
             <div className="scrollable">
                 <div className="single-message">
                     <div className="avatar">
-                        <img src="assets/images/avatar-2.png" alt="User"/>
+                        <img src="/assets/images/avatar-2.png" alt="User"/>
                         <span className="active-status active"></span>
                     </div>
                     <div className="part-txt">
@@ -31,7 +31,7 @@ const MessageList = () => {
                 </div>
                 <div className="single-message unread">
                     <div className="avatar">
-                        <img src="assets/images/avatar-3.png" alt="User"/>
+                        <img src="/assets/images/avatar-3.png" alt="User"/>
                         <span className="active-status active"></span>
                     </div>
                     <div className="part-txt">
@@ -46,7 +46,7 @@ const MessageList = () => {
                 </div>
                 <div className="single-message">
                     <div className="avatar">
-                        <img src="assets/images/avatar-4.png" alt="User"/>
+                        <img src="/assets/images/avatar-4.png" alt="User"/>
                         <span className="active-status"></span>
                     </div>
                     <div className="part-txt">
@@ -61,7 +61,7 @@ const MessageList = () => {
                 </div>
                 <div className="single-message unread">
                     <div className="avatar">
-                        <img src="assets/images/avatar-5.png" alt="User"/>
+                        <img src="/assets/images/avatar-5.png" alt="User"/>
                         <span className="active-status"></span>
                     </div>
                     <div className="part-txt">
@@ -76,7 +76,7 @@ const MessageList = () => {
                 </div>
                 <div className="single-message unread">
                     <div className="avatar">
-                        <img src="assets/images/avatar-6.png" alt="User"/>
+                        <img src="/assets/images/avatar-6.png" alt="User"/>
                         <span className="active-status"></span>
                     </div>
                     <div className="part-txt">
@@ -91,7 +91,7 @@ const MessageList = () => {
                 </div>
                 <div className="single-message">
                     <div className="avatar">
-                        <img src="assets/images/avatar-2.png" alt="User"/>
+                        <img src="/assets/images/avatar-2.png" alt="User"/>
                         <span className="active-status"></span>
                     </div>
                     <div className="part-txt">
@@ -106,7 +106,7 @@ const MessageList = () => {
                 </div>
                 <div className="single-message unread">
                     <div className="avatar">
-                        <img src="assets/images/avatar.png" alt="User"/>
+                        <img src="/assets/images/avatar.png" alt="User"/>
                         <span className="active-status active"></span>
                     </div>
                     <div className="part-txt">
@@ -121,7 +121,7 @@ const MessageList = () => {
                 </div>
                 <div className="single-message">
                     <div className="avatar">
-                        <img src="assets/images/avatar-3.png" alt="User"/>
+                        <img src="/assets/images/avatar-3.png" alt="User"/>
                         <span className="active-status active"></span>
                     </div>
                     <div className="part-txt">
@@ -136,7 +136,7 @@ const MessageList = () => {
                 </div>
                 <div className="single-message">
                     <div className="avatar">
-                        <img src="assets/images/avatar-6.png" alt="User"/>
+                        <img src="/assets/images/avatar-6.png" alt="User"/>
                         <span className="active-status"></span>
                     </div>
                     <div className="part-txt">
@@ -151,7 +151,7 @@ const MessageList = () => {
                 </div>
                 <div className="single-message unread">
                     <div className="avatar">
-                        <img src="assets/images/avatar-2.png" alt="User"/>
+                        <img src="/assets/images/avatar-2.png" alt="User"/>
                         <span className="active-status active"></span>
                     </div>
                     <div className="part-txt">
@@ -166,7 +166,7 @@ const MessageList = () => {
                 </div>
                 <div className="single-message">
                     <div className="avatar">
-                        <img src="assets/images/avatar.png" alt="User"/>
+                        <img src="/assets/images/avatar.png" alt="User"/>
                         <span className="active-status active"></span>
                     </div>
                     <div className="part-txt">
@@ -181,7 +181,7 @@ const MessageList = () => {
                 </div>
                 <div className="single-message">
                     <div className="avatar">
-                        <img src="assets/images/avatar-3.png" alt="User"/>
+                        <img src="/assets/images/avatar-3.png" alt="User"/>
                         <span className="active-status active"></span>
                     </div>
                     <div className="part-txt">

@@ -9,7 +9,7 @@ const ComingSoonContent2 = () => {
         <div className="panel coming-soon-panel coming-soon-panel-2">
             <div className="panel-body h-100 d-flex flex-column align-items-center justify-content-center">
                 <div className="part-img">
-                    <img src="assets/images/coming-soon-2.png" alt="coming-soon"/>
+                    <img src="/assets/images/coming-soon-2.png" alt="coming-soon"/>
                 </div>
                 <div className="part-txt">
                     <ul className="countdown">

@@ -96,7 +96,7 @@ const RecentFileSection = ({state,title}) => {
                         <div className="file-manager-col">
                             <div className="file-card">
                                 <div className="part-img">
-                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="assets/images/auth-bg.png" alt="Image"/></button>
+                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="/assets/images/auth-bg.png" alt="Image"/></button>
                                 </div>
                                 <div className="part-txt">
                                     <div className="d-flex justify-content-between">
@@ -129,7 +129,7 @@ const RecentFileSection = ({state,title}) => {
                         <div className="file-manager-col">
                             <div className="file-card">
                                 <div className="part-img">
-                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="assets/images/pdf.png" className="file-icon" alt="Image"/></button>
+                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="/assets/images/pdf.png" className="file-icon" alt="Image"/></button>
                                 </div>
                                 <div className="part-txt">
                                     <div className="d-flex justify-content-between">
@@ -170,7 +170,7 @@ const RecentFileSection = ({state,title}) => {
                         <div className="file-manager-col">
                             <div className="file-card">
                                 <div className="part-img">
-                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="assets/images/css.png" className="file-icon" alt="Image"/></button>
+                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="/assets/images/css.png" className="file-icon" alt="Image"/></button>
                                 </div>
                                 <div className="part-txt">
                                     <div className="d-flex justify-content-between">
@@ -211,7 +211,7 @@ const RecentFileSection = ({state,title}) => {
                         <div className="file-manager-col">
                             <div className="file-card">
                                 <div className="part-img">
-                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="assets/images/doc.png" className="file-icon" alt="Image"/></button>
+                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="/assets/images/doc.png" className="file-icon" alt="Image"/></button>
                                 </div>
                                 <div className="part-txt">
                                     <div className="d-flex justify-content-between">
@@ -252,7 +252,7 @@ const RecentFileSection = ({state,title}) => {
                         <div className="file-manager-col">
                             <div className="file-card">
                                 <div className="part-img">
-                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="assets/images/product-img-2.png" alt="Image"/></button>
+                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="/assets/images/product-img-2.png" alt="Image"/></button>
                                 </div>
                                 <div className="part-txt">
                                     <div className="d-flex justify-content-between">
@@ -293,7 +293,7 @@ const RecentFileSection = ({state,title}) => {
                         <div className="file-manager-col">
                             <div className="file-card">
                                 <div className="part-img">
-                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="assets/images/html.png" className="file-icon" alt="Image"/></button>
+                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="/assets/images/html.png" className="file-icon" alt="Image"/></button>
                                 </div>
                                 <div className="part-txt">
                                     <div className="d-flex justify-content-between">
@@ -334,7 +334,7 @@ const RecentFileSection = ({state,title}) => {
                         <div className="file-manager-col">
                             <div className="file-card">
                                 <div className="part-img">
-                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="assets/images/product-img-4.jpg" alt="Image"/></button>
+                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="/assets/images/product-img-4.jpg" alt="Image"/></button>
                                 </div>
                                 <div className="part-txt">
                                     <div className="d-flex justify-content-between">
@@ -375,7 +375,7 @@ const RecentFileSection = ({state,title}) => {
                         <div className="file-manager-col">
                             <div className="file-card">
                                 <div className="part-img">
-                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="assets/images/php.png" className="file-icon" alt="Image"/></button>
+                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="/assets/images/php.png" className="file-icon" alt="Image"/></button>
                                 </div>
                                 <div className="part-txt">
                                     <div className="d-flex justify-content-between">
@@ -416,7 +416,7 @@ const RecentFileSection = ({state,title}) => {
                         <div className="file-manager-col">
                             <div className="file-card">
                                 <div className="part-img">
-                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="assets/images/svg.png" className="file-icon" alt="Image"/></button>
+                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="/assets/images/svg.png" className="file-icon" alt="Image"/></button>
                                 </div>
                                 <div className="part-txt">
                                     <div className="d-flex justify-content-between">
@@ -457,7 +457,7 @@ const RecentFileSection = ({state,title}) => {
                         <div className="file-manager-col">
                             <div className="file-card">
                                 <div className="part-img">
-                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="assets/images/txt.png" className="file-icon" alt="Image"/></button>
+                                    <button className="btn-flush" data-bs-toggle="modal" onClick={handleFileDetailsModalShow} data-bs-target="#fileDetailsModal"><img src="/assets/images/txt.png" className="file-icon" alt="Image"/></button>
                                 </div>
                                 <div className="part-txt">
                                     <div className="d-flex justify-content-between">

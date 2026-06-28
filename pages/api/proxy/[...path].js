@@ -4,6 +4,12 @@ import {
   hasAdminSession,
 } from "@/lib/serverAuth";
 
+export const config = {
+  api: {
+    bodyParser: true,
+  },
+};
+
 export default async function handler(req, res) {
   if (!hasAdminSession(req)) {
     return res.status(401).json({ message: "Unauthorized" });
@@ -30,17 +36,24 @@ export default async function handler(req, res) {
       Authorization: `Bearer ${token}`,
     };
 
-    if (req.headers["content-type"]) {
-      headers["Content-Type"] = req.headers["content-type"];
-    }
-
     const init = {
       method: req.method,
       headers,
     };
 
-    if (req.method !== "GET" && req.method !== "HEAD" && req.body) {
-      init.body = JSON.stringify(req.body);
+    if (req.method !== "GET" && req.method !== "HEAD") {
+      const hasBody =
+        req.body !== undefined &&
+        req.body !== null &&
+        (typeof req.body === "string"
+          ? req.body.length > 0
+          : Object.keys(req.body).length > 0);
+
+      if (hasBody) {
+        init.body =
+          typeof req.body === "string" ? req.body : JSON.stringify(req.body);
+        headers["Content-Type"] = "application/json";
+      }
     }
 
     const upstream = await fetch(targetUrl, init);

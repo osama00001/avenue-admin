@@ -6,21 +6,21 @@ export default function Document() {
         <Head>
           <link 
           rel='stylesheet'
-          href='assets/css/sweetalert2.min.css'
+          href='/assets/css/sweetalert2.min.css'
           />
           <link 
           rel="stylesheet" 
-          href="assets/css/bootstrap.min.css"
+          href="/assets/css/bootstrap.min.css"
           />
           <link 
           rel="stylesheet" 
-          href="assets/css/style.css"
+          href="/assets/css/style.css"
           />
 
           <link
               id="primaryColor"
               rel="stylesheet"
-              href="assets/css/blue-color.css" // Set the default stylesheet path
+              href="/assets/css/blue-color.css"
           />
         </Head>
         <body className="light-theme">

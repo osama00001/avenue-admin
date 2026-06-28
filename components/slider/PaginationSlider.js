@@ -24,13 +24,13 @@ const PaginationSlider = () => {
             className="pagination-swiper"
           >
             <SwiperSlide>
-              <img src="assets/images/slider-7.jpg" alt="image" />
+              <img src="/assets/images/slider-7.jpg" alt="image" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="assets/images/slider-8.jpg" alt="image" />
+              <img src="/assets/images/slider-8.jpg" alt="image" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="assets/images/slider-9.jpg" alt="image" />
+              <img src="/assets/images/slider-9.jpg" alt="image" />
             </SwiperSlide>
           </Swiper>
         </div>

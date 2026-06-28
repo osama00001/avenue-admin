@@ -30,7 +30,7 @@ const ZoomAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>zoom-in<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="zoom-in">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const ZoomAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>zoom-in-up<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="zoom-in-up">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ const ZoomAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>zoom-in-down<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="zoom-in-down">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ const ZoomAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>zoom-in-left<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="zoom-in-left">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ const ZoomAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>zoom-in-right<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="zoom-in-right">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ const ZoomAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>zoom-out<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="zoom-out">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@ const ZoomAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>zoom-out-up<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="zoom-out-up">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -135,7 +135,7 @@ const ZoomAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>zoom-out-down<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="zoom-out-down">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ const ZoomAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>zoom-out-left<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="zoom-out-left">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>
@@ -165,7 +165,7 @@ const ZoomAnimations = () => {
                                     <pre className="language-markup"><code className="language-markup"><span className="tag"><span className="tag"><span className="punctuation">&lt;</span>div</span> <span className="attr-name">data-aos</span><span className="attr-value"><span className="punctuation attr-equals">=</span><span className="punctuation">"</span>zoom-out-right<span className="punctuation">"</span></span><span className="punctuation">&gt;</span></span><span className="tag"><span className="tag"><span className="punctuation">&lt;/</span>div</span><span className="punctuation">&gt;</span></span></code></pre>
                                 </div>
                                 <div className="text-center" data-aos="zoom-out-right">
-                                    <img src="assets/images/animation-card.png" alt="Image"/>
+                                    <img src="/assets/images/animation-card.png" alt="Image"/>
                                 </div>
                             </div>
                         </div>

@@ -34,7 +34,7 @@ return (
             <div className="mail-top" role='button' onClick={handleFirstMail}>
                 <div className="mail-profile">
                     <div className="avatar">
-                        <img src="assets/images/avatar-2.png" alt="Image" />
+                        <img src="/assets/images/avatar-2.png" alt="Image" />
                     </div>
                     <div className="part-txt" style={{color: isLightTheme? '#626262':'#adadad'}}>
                         <span className="name">Amelie Harris</span>
@@ -58,7 +58,7 @@ return (
             <div className="mail-top" role='button' onClick={handleSecondMail}>
                 <div className="mail-profile">
                     <div className="avatar">
-                        <img src="assets/images/avatar-2.png" alt="Image" />
+                        <img src="/assets/images/avatar-2.png" alt="Image" />
                     </div>
                     <div className="part-txt" style={{color: isLightTheme? '#626262':'#adadad'}}>
                         <span className="name">Amelie Harris</span>

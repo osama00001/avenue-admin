@@ -963,84 +963,84 @@ const customerData = [{
 }]
 
 const employeeData = [{
-  "image":"assets/images/avatar-2.png",
+  "image":"/assets/images/avatar-2.png",
   "employeeId": 149218,
   "name": "Jelene Largan",
   "section": "Data Science",
   "phone": "228-134-8273",
   "presentAddress": "8 Service Junction"
 }, {
-  "image":"assets/images/avatar-3.png",
+  "image":"/assets/images/avatar-3.png",
   "employeeId": 101186,
   "name": "Alysia Tremblett",
   "section": "Testing",
   "phone": "754-622-7485",
   "presentAddress": "575 Hanson Place"
 }, {
-  "image":"assets/images/avatar-4.png",
+  "image":"/assets/images/avatar-4.png",
   "employeeId": 110611,
   "name": "Norma McLarens",
   "section": "Internet of Things",
   "phone": "993-320-1732",
   "presentAddress": "3225 Parkside Circle"
 }, {
-  "image":"assets/images/avatar-5.png",
+  "image":"/assets/images/avatar-5.png",
   "employeeId": 107053,
   "name": "Bertina Dominico",
   "section": "Infrastructure",
   "phone": "492-335-8599",
   "presentAddress": "5 Drewry Alley"
 }, {
-  "image":"assets/images/avatar-6.png",
+  "image":"/assets/images/avatar-6.png",
   "employeeId": 141436,
   "name": "Amalie McLachlan",
   "section": "Internet of Things",
   "phone": "827-579-8393",
   "presentAddress": "223 Darwin Street"
 }, {
-  "image":"assets/images/avatar-2.png",
+  "image":"/assets/images/avatar-2.png",
   "employeeId": 101411,
   "name": "Peterus Simondson",
   "section": "Infrastructure",
   "phone": "141-949-2749",
   "presentAddress": "64302 Artisan Way"
 }, {
-  "image":"assets/images/avatar-3.png",
+  "image":"/assets/images/avatar-3.png",
   "employeeId": 112840,
   "name": "Gar Delagnes",
   "section": "Infrastructure",
   "phone": "155-818-2452",
   "presentAddress": "70 Amoth Place"
 }, {
-  "image":"assets/images/avatar-4.png",
+  "image":"/assets/images/avatar-4.png",
   "employeeId": 126979,
   "name": "Bartlet Rayworth",
   "section": "Artificial Intelligence",
   "phone": "957-506-4947",
   "presentAddress": "81971 Cambridge Crossing"
 }, {
-  "image":"assets/images/avatar-5.png",
+  "image":"/assets/images/avatar-5.png",
   "employeeId": 116011,
   "name": "Saxe Feares",
   "section": "Security",
   "phone": "953-181-0473",
   "presentAddress": "684 Lillian Street"
 }, {
-  "image":"assets/images/avatar-6.png",
+  "image":"/assets/images/avatar-6.png",
   "employeeId": 143990,
   "name": "Lock Gillbanks",
   "section": "Testing",
   "phone": "584-963-2410",
   "presentAddress": "1839 Rieder Circle"
 }, {
-  "image":"assets/images/avatar-3.png",
+  "image":"/assets/images/avatar-3.png",
   "employeeId": 101503,
   "name": "Benn Twigley",
   "section": "Testing",
   "phone": "807-907-1914",
   "presentAddress": "4 Bartelt Road"
 }, {
-  "image":"assets/images/avatar-2.png",
+  "image":"/assets/images/avatar-2.png",
   "employeeId": 125345,
   "name": "Hyatt Crane",
   "section": "Artificial Intelligence",
@@ -1339,7 +1339,7 @@ const allProductData = [{
   "product_name": "Amazon Fire Tablet",
   "category": "Electronics",
   "sku": 16931,
-  "image": "assets/images/product-12.jpg",
+  "image": "/assets/images/product-12.jpg",
   "stock": 50,
   "price": 588,
   "sales": 623,
@@ -1350,7 +1350,7 @@ const allProductData = [{
   "product_name": "Play Station 5",
   "category": "Electronics",
   "sku": 16788,
-  "image": "assets/images/ps5.jpg",
+  "image": "/assets/images/ps5.jpg",
   "stock": 15,
   "price": 879,
   "sales": 958,
@@ -1361,7 +1361,7 @@ const allProductData = [{
   "product_name": "NexusGlide Elite Treadmill",
   "category": "Sports & Fitness",
   "sku": 15545,
-  "image": "assets/images/treadmill.jpg",
+  "image": "/assets/images/treadmill.jpg",
   "stock": 40,
   "price": 504,
   "sales": 284,
@@ -1372,7 +1372,7 @@ const allProductData = [{
   "product_name": "AeroFit Squat Rack",
   "category": "Health & Wellness",
   "sku": 15362,
-  "image": "assets/images/squat-rack.jpg",
+  "image": "/assets/images/squat-rack.jpg",
   "stock": 30,
   "price": 946,
   "sales": 595,
@@ -1383,7 +1383,7 @@ const allProductData = [{
   "product_name": "ZenithStar Blaze Leather Bag",
   "category": "Fashion & Accessories",
   "sku": 15293,
-  "image": "assets/images/leather-bag.jpg",
+  "image": "/assets/images/leather-bag.jpg",
   "stock": 20,
   "price": 227,
   "sales": 209,
@@ -1394,7 +1394,7 @@ const allProductData = [{
   "product_name": "PulseWave Studio Camera",
   "category": "Electronics",
   "sku": 16289,
-  "image": "assets/images/studio-camera.jpg",
+  "image": "/assets/images/studio-camera.jpg",
   "stock": 20,
   "price": 441,
   "sales": 491,
@@ -1405,7 +1405,7 @@ const allProductData = [{
   "product_name": "VelocityX Spark Cabinet",
   "category": "Home Decor",
   "sku": 16775,
-  "image": "assets/images/cabinet.jpg",
+  "image": "/assets/images/cabinet.jpg",
   "stock": 29,
   "price": 568,
   "sales": 264,
@@ -1416,7 +1416,7 @@ const allProductData = [{
   "product_name": "SolarisBoost Coffee Maker",
   "category": "Outdoor & Recreation",
   "sku": 15829,
-  "image": "assets/images/coffee-maker.jpg",
+  "image": "/assets/images/coffee-maker.jpg",
   "stock": 16,
   "price": 762,
   "sales": 414,
@@ -1427,7 +1427,7 @@ const allProductData = [{
   "product_name": "TurboChill Washing Machine",
   "category": "Home Appliances",
   "sku": 16748,
-  "image": "assets/images/washing-machine.jpg",
+  "image": "/assets/images/washing-machine.jpg",
   "stock": 13,
   "price": 680,
   "sales": 886,
@@ -1438,7 +1438,7 @@ const allProductData = [{
   "product_name": "Giant Carbon Fiber Road Bike",
   "category": "Sports & Fitness",
   "sku": 16474,
-  "image": "assets/images/road-bike.jpg",
+  "image": "/assets/images/road-bike.jpg",
   "stock": 25,
   "price": 563,
   "sales": 1000,
@@ -1449,7 +1449,7 @@ const allProductData = [{
   "product_name": "Luxury Handbag",
   "category": "Fashion & Accessories",
   "sku": 15296,
-  "image": "assets/images/handbag.jpg",
+  "image": "/assets/images/handbag.jpg",
   "stock": 40,
   "price": 598,
   "sales": 991,
@@ -1460,7 +1460,7 @@ const allProductData = [{
   "product_name": "Keycron Mechanical Keyboard",
   "category": "Electronics",
   "sku": 16424,
-  "image": "assets/images/keyboard.jpg",
+  "image": "/assets/images/keyboard.jpg",
   "stock": 42,
   "price": 307,
   "sales": 435,
@@ -1474,42 +1474,42 @@ const categoryData = [{
   "description": "Laceration w/o foreign body of unsp upper arm, init encntr",
   "slug": "Electronics",
   "count": 23,
-  "image":"assets/images/image.png" 
+  "image":"/assets/images/image.png" 
 }, {
   "id":2,
   "category_name": "Fashion",
   "description": "Blister (nonthermal) of left upper arm, subsequent encounter",
   "slug": "Fashion",
   "count": 10,
-  "image":"assets/images/image.png" 
+  "image":"/assets/images/image.png" 
 }, {
   "id":3,
   "category_name": "Toys",
   "description": "Inj msl/tnd lng flxr msl toe at ank/ft lev, unsp foot, sqla",
   "slug": "Toys",
   "count": 20,
-  "image":"assets/images/image.png" 
+  "image":"/assets/images/image.png" 
 }, {
   "id":4,
   "category_name": "Groceries",
   "description": "Nondisp transcondy fx l humerus, subs for fx w routn heal",
   "slug": "Groceries",
   "count": 10,
-  "image":"assets/images/image.png" 
+  "image":"/assets/images/image.png" 
 }, {
   "id":5,
   "category_name": "Electronics",
   "description": "Heat exposure on board sailboat, subsequent encounter",
   "slug": "Electronics",
   "count": 26,
-  "image":"assets/images/image.png" 
+  "image":"/assets/images/image.png" 
 }, {
   "id":6,
   "category_name": "Fashion",
   "description": "Activity, furniture building and finishing",
   "slug": "Fashion",
   "count": 19,
-  "image":"assets/images/image.png" 
+  "image":"/assets/images/image.png" 
 }]
 
 const orderListData = [{
@@ -1798,51 +1798,51 @@ const yearlyDiscountPlans = [
 const membersData = [
   {
     id: 1,
-    imgSrc: "assets/images/avatar-2.png",
+    imgSrc: "/assets/images/avatar-2.png",
   },
   {
     id: 2,
-    imgSrc: "assets/images/avatar-3.png",
+    imgSrc: "/assets/images/avatar-3.png",
   },
   {
     id: 3,
-    imgSrc: "assets/images/avatar-4.png",
+    imgSrc: "/assets/images/avatar-4.png",
   },
   {
     id: 4,
-    imgSrc: "assets/images/avatar-5.png",
+    imgSrc: "/assets/images/avatar-5.png",
   },
   {
     id: 5,
-    imgSrc: "assets/images/avatar-6.png",
+    imgSrc: "/assets/images/avatar-6.png",
   },
   {
     id: 6,
-    imgSrc: "assets/images/avatar.png",
+    imgSrc: "/assets/images/avatar.png",
   },
   {
     id: 7,
-    imgSrc: "assets/images/avatar-2.png",
+    imgSrc: "/assets/images/avatar-2.png",
   },
   {
     id: 8,
-    imgSrc: "assets/images/avatar-3.png",
+    imgSrc: "/assets/images/avatar-3.png",
   },
   {
     id: 9,
-    imgSrc: "assets/images/avatar-4.png",
+    imgSrc: "/assets/images/avatar-4.png",
   },
   {
     id: 10,
-    imgSrc: "assets/images/avatar-5.png",
+    imgSrc: "/assets/images/avatar-5.png",
   },
   {
     id: 11,
-    imgSrc: "assets/images/avatar-6.png",
+    imgSrc: "/assets/images/avatar-6.png",
   },
   {
     id: 12,
-    imgSrc: "assets/images/avatar.png",
+    imgSrc: "/assets/images/avatar.png",
   },
 ];
 

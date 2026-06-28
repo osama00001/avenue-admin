@@ -8,7 +8,7 @@ const VideoCallModal = ({showVideoCall,handleCloseVideoCall}) => {
             <div className="video-call">
                 <div className="user">
                     <div className="user-preview">
-                        <img src="assets/images/avatar-big.jpg" alt="User"/>
+                        <img src="/assets/images/avatar-big.jpg" alt="User"/>
                     </div>
                     <div className="part-txt">
                         <span className="user-name">Amelie Harris</span>
@@ -23,7 +23,7 @@ const VideoCallModal = ({showVideoCall,handleCloseVideoCall}) => {
                         <button className="btn btn-sm rounded-circle btn-icon btn-danger" onClick={handleCloseVideoCall} data-bs-dismiss="modal"><i className="fa-light fa-phone-hangup"></i></button>
                     </div>
                     <div className="admin-preview">
-                        <img src="assets/images/admin.png" alt="Admin"/>
+                        <img src="/assets/images/admin.png" alt="Admin"/>
                     </div>
                 </div>
             </div>

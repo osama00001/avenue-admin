@@ -7,7 +7,7 @@ const VoiceCallModal = ({showVoiceCall,handleCloseVoiceCall}) => {
       <div className="voice-call">
         <div className="user">
           <div className="avatar avatar-lg">
-            <img src="assets/images/avatar-2.png" alt="User" />
+            <img src="/assets/images/avatar-2.png" alt="User" />
           </div>
           <span className="user-name">Amelie Harris</span>
           <span className="call-status">Calling...</span>

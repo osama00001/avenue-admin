@@ -38,13 +38,13 @@ const NavigationSlider = () => {
             modules={[Navigation, Autoplay]}
           >
             <SwiperSlide className="swiper-slide">
-              <img src="assets/images/slider-4.jpg" alt="image" />
+              <img src="/assets/images/slider-4.jpg" alt="image" />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="assets/images/slider-5.jpg" alt="image" />
+              <img src="/assets/images/slider-5.jpg" alt="image" />
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="assets/images/slider-6.jpg" alt="image" />
+              <img src="/assets/images/slider-6.jpg" alt="image" />
             </SwiperSlide>
             <div className="btn btn-sm btn-icon btn-primary swiper-button-next" role='button' onClick={goNext}>
               <i className="fa-solid fa-chevron-right"></i>
