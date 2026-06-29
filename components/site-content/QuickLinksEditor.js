@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import ImageUploadField from "./ImageUploadField";
 import HrefSelect from "./HrefSelect";
 
@@ -13,11 +13,18 @@ function emptyItem() {
   };
 }
 
-export default function QuickLinksEditor({ items = [], onChange }) {
+export default function QuickLinksEditor({ items = [], onChange, onUploadingChange }) {
+  const itemsRef = useRef(items);
+
+  useEffect(() => {
+    itemsRef.current = items;
+  }, [items]);
+
   const item = items[0] || emptyItem();
 
   const updateItem = (patch) => {
-    onChange([{ ...item, ...patch, order: 0 }]);
+    const current = itemsRef.current[0] || emptyItem();
+    onChange([{ ...current, ...patch, order: 0 }]);
   };
 
   return (
@@ -56,10 +63,12 @@ export default function QuickLinksEditor({ items = [], onChange }) {
           <ImageUploadField
             label="Icon image"
             value={item.image}
+            onUploadingChange={onUploadingChange}
             onChange={(image) =>
               updateItem({
                 image,
                 imageId: image?.id ?? null,
+                imageUrl: image?.url ?? null,
               })
             }
           />

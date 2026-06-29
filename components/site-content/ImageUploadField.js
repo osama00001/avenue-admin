@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { toast } from "react-toastify";
 import { uploadSiteContentImage } from "../../lib/siteContentClient";
 import { resolveAdminMediaUrl } from "../../lib/mediaUrl";
 
@@ -7,6 +8,7 @@ export default function ImageUploadField({
   value,
   onChange,
   helpText,
+  onUploadingChange,
 }) {
   const inputRef = useRef(null);
   const [uploading, setUploading] = useState(false);
@@ -17,14 +19,18 @@ export default function ImageUploadField({
     if (!file) return;
 
     setUploading(true);
+    onUploadingChange?.(true);
     setError("");
     try {
       const uploaded = await uploadSiteContentImage(file);
       onChange(uploaded);
+      toast.success("Image uploaded — click Save to apply");
     } catch (err) {
       setError(err.message || "Upload failed");
+      toast.error(err.message || "Image upload failed");
     } finally {
       setUploading(false);
+      onUploadingChange?.(false);
       if (inputRef.current) inputRef.current.value = "";
     }
   };

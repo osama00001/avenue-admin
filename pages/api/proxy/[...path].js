@@ -6,7 +6,9 @@ import {
 
 export const config = {
   api: {
-    bodyParser: true,
+    bodyParser: {
+      sizeLimit: "12mb",
+    },
   },
 };
 

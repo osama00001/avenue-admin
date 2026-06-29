@@ -8,6 +8,7 @@ export default function SiteContentPanel({
   children,
   onSave,
   saving = false,
+  saveDisabled = false,
   loading = false,
   saveLabel = "Save Changes",
 }) {
@@ -41,7 +42,7 @@ export default function SiteContentPanel({
                           type="button"
                           className="btn btn-primary"
                           onClick={onSave}
-                          disabled={saving || loading}
+                          disabled={saving || saveDisabled || loading}
                         >
                           {saving ? "Saving..." : saveLabel}
                         </button>

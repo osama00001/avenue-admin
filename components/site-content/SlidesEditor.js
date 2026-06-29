@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import ImageUploadField from "./ImageUploadField";
 import HrefSelect from "./HrefSelect";
 
@@ -17,9 +17,16 @@ function emptySlide() {
 export default function SlidesEditor({
   slides = [],
   onChange,
+  onUploadingChange,
   single = false,
   sectionLabel = "Slide",
 }) {
+  const slidesRef = useRef(slides);
+
+  useEffect(() => {
+    slidesRef.current = slides;
+  }, [slides]);
+
   const visibleSlides = single
     ? [slides[0] || emptySlide()]
     : slides.length
@@ -27,13 +34,17 @@ export default function SlidesEditor({
       : [emptySlide()];
 
   const updateSlide = (index, patch) => {
+    const currentSlides = slidesRef.current.length
+      ? slidesRef.current
+      : [emptySlide()];
+
     if (single) {
-      onChange([{ ...visibleSlides[0], ...patch, order: 0 }]);
+      onChange([{ ...(currentSlides[0] || emptySlide()), ...patch, order: 0 }]);
       return;
     }
 
     onChange(
-      visibleSlides.map((slide, i) =>
+      currentSlides.map((slide, i) =>
         i === index ? { ...slide, ...patch } : slide
       )
     );
@@ -119,10 +130,12 @@ export default function SlidesEditor({
               <ImageUploadField
                 label="Image"
                 value={slide.image}
+                onUploadingChange={onUploadingChange}
                 onChange={(image) =>
                   updateSlide(index, {
                     image,
                     imageId: image?.id ?? null,
+                    imageUrl: image?.url ?? null,
                   })
                 }
               />

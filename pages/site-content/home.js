@@ -59,6 +59,7 @@ export default function SiteContentHomePage() {
   const [sections, setSections] = useState({});
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
+  const [imageUploading, setImageUploading] = useState(false);
   const [error, setError] = useState("");
 
   const loadAll = useCallback(async () => {
@@ -120,6 +121,7 @@ export default function SiteContentHomePage() {
       description="Manage all homepage banners, sliders, and quick links"
       loading={loading}
       saving={saving}
+      saveDisabled={imageUploading}
       onSave={saveActive}
       saveLabel={`Save ${activeSection?.label || "section"}`}
     >
@@ -144,6 +146,7 @@ export default function SiteContentHomePage() {
             <SlidesEditor
               slides={activeData.slides || []}
               onChange={(slides) => updateActive({ slides })}
+              onUploadingChange={setImageUploading}
               single={Boolean(activeSection.single)}
               sectionLabel={activeSection.sectionLabel || "Slide"}
             />
@@ -153,12 +156,14 @@ export default function SiteContentHomePage() {
               value={activeData}
               showSubtitle={activeSection.showSubtitle}
               onChange={(value) => updateActive(value)}
+              onUploadingChange={setImageUploading}
             />
           ) : null}
           {activeSection?.type === "quick-links" ? (
             <QuickLinksEditor
               items={(activeData.items || []).slice(0, 1)}
               onChange={(items) => updateActive({ items })}
+              onUploadingChange={setImageUploading}
             />
           ) : null}
         </>

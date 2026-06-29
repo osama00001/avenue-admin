@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import ImageUploadField from "./ImageUploadField";
 import HrefSelect from "./HrefSelect";
 
-export default function BannerEditor({ value = {}, onChange, showSubtitle = false }) {
-  const update = (patch) => onChange({ ...value, ...patch });
+export default function BannerEditor({
+  value = {},
+  onChange,
+  onUploadingChange,
+  showSubtitle = false,
+}) {
+  const valueRef = useRef(value);
+
+  useEffect(() => {
+    valueRef.current = value;
+  }, [value]);
+
+  const update = (patch) => onChange({ ...valueRef.current, ...patch });
 
   return (
     <div className="row g-3">
@@ -43,10 +54,12 @@ export default function BannerEditor({ value = {}, onChange, showSubtitle = fals
         <ImageUploadField
           label="Banner image"
           value={value.image}
+          onUploadingChange={onUploadingChange}
           onChange={(image) =>
             update({
               image,
               imageId: image?.id ?? null,
+              imageUrl: image?.url ?? null,
             })
           }
         />
